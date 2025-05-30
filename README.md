@@ -43,6 +43,7 @@ sequenceDiagram
     LoginScreen-->>DetailScreen: navController.navigate(Screen.Detail.passNameAndId())
 ```
 ## Key Components
+
 **MainActivity.kt:** Initializes the NavHostController and sets up the navigation graph.
 
 **NavGraph.kt:** Defines the root navigation graph and includes the home and auth navigation graphs.
